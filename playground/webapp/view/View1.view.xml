@@ -12,6 +12,7 @@
             <Title text="TITLE" level="H3" titleStyle="H3"/>
         </VBox>
         <VBox class="sapUiContentPadding">
+            <Label text="Enter your name" class="sapUiContentPadding, sapUiSmallMarginBeginEnd" required="true"/>
             <FlexBox alignItems="Center" justifyContent="Start" 
                      class="sapUiSmallMarginBeginEnd">
                 <items>
