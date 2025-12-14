@@ -1,6 +1,13 @@
 <mvc:View controllerName="playground.controller.View1"
-    xmlns:mvc="sap.ui.core.mvc"
-    xmlns="sap.m">
-    <Page id="page" title="{i18n>title}">
-    </Page>
+    xmlns:mvc="sap.ui.core.mvc" displayBlock="true"
+    xmlns="sap.m"
+    xmlns:l="sap.ui.layout">
+
+    <l:VerticalLayout >
+           <Title text= "TITLE " level="H1" titleStyle="H3"/>
+           <Title text= "TITLE " level="H2" titleStyle="H3"/>
+           <Title text= "TITLE " level="H3" titleStyle="H3"/>
+    </l:VerticalLayout>
+     
+
 </mvc:View>
