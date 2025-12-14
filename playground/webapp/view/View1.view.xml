@@ -25,6 +25,14 @@
                 </items>
             </FlexBox>
         </VBox>
+        <VBox class="sapUiContentPadding">
+           <Label text="Select an option" class="sapUiSmallMarginBeginEnd sapUiSmallMarginTop" required="true"/>
+           <RadioButtonGroup>
+             <RadioButton text="Option 1"/>
+             <RadioButton text="Option 2"/>
+             <RadioButton text="Option 3"/>
+           </RadioButtonGroup>
+        </VBox>
     </content>
 </Page>
 
