@@ -1,13 +1,30 @@
 <mvc:View controllerName="playground.controller.View1"
     xmlns:mvc="sap.ui.core.mvc" displayBlock="true"
     xmlns="sap.m"
-    xmlns:l="sap.ui.layout">
+    xmlns:l="sap.ui.layout"
+    xmlns:core="sap.ui.core">
 
-    <l:VerticalLayout >
-           <Title text= "TITLE " level="H1" titleStyle="H3"/>
-           <Title text= "TITLE " level="H2" titleStyle="H3"/>
-           <Title text= "TITLE " level="H3" titleStyle="H3"/>
-    </l:VerticalLayout>
-     
+<Page title="View1">
+    <content>
+        <VBox alignItems="Center" class="sapUiSmallMarginBottom">
+            <Title text="TITLE" level="H1" titleStyle="H3" />
+            <Title text="TITLE" level="H2" titleStyle="H3"/>
+            <Title text="TITLE" level="H3" titleStyle="H3"/>
+        </VBox>
+        <VBox class="sapUiContentPadding">
+            <FlexBox alignItems="Center" justifyContent="Start" 
+                     class="sapUiSmallMarginBeginEnd">
+                <items>
+                    <Input type="Text" placeholder="Enter your name" showValueHelp="true">
+                        <layoutData>
+                            <FlexItemData growFactor="1" />
+                        </layoutData>
+                    </Input>
+                    <core:Icon src="sap-icon://display" size="1.5rem" class="sapUiSmallMarginBegin"/>
+                </items>
+            </FlexBox>
+        </VBox>
+    </content>
+</Page>
 
 </mvc:View>
